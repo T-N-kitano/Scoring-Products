@@ -17,6 +17,14 @@
       "category": "A"
     },
     {
+      "id": "p_7ocar3l",
+      "name": "海の七草汁",
+      "points": 0.6,
+      "weight": 50,
+      "type": "常温",
+      "category": "A"
+    },
+    {
       "id": "p3",
       "name": "がごめ納豆昆布",
       "points": 1.2,
@@ -41,83 +49,211 @@
       "category": "A"
     },
     {
-      "id": "p_7ocar3l",
-      "name": "海の七草汁",
-      "points": 1,
-      "weight": 100,
-      "type": "常温",
-      "category": "A"
-    },
-    {
       "id": "p_hv124j3",
       "name": "シャキシャキわかめ",
       "points": 1,
-      "weight": 100,
+      "weight": 150,
       "type": "常温",
       "category": "A"
     },
     {
       "id": "p_f2ato39",
       "name": "花折乾昆布",
-      "points": 1,
-      "weight": 100,
+      "points": 33,
+      "weight": 3900,
       "type": "常温",
       "category": "A"
     },
     {
       "id": "p_jc45085",
       "name": "日高乾昆布",
-      "points": 1,
-      "weight": 100,
+      "points": 100,
+      "weight": 3900,
       "type": "常温",
       "category": "A"
     },
     {
       "id": "p_uh271u6",
       "name": "おさしみ昆布",
-      "points": 1,
-      "weight": 100,
+      "points": 1.55,
+      "weight": 45,
       "type": "常温",
       "category": "A"
     },
     {
       "id": "p1773275971483",
-      "name": "新商品",
-      "category": "",
-      "points": 1,
-      "weight": 100,
+      "name": "早摘昆布",
+      "category": "A",
+      "points": 2.5,
+      "weight": 120,
       "type": "常温"
     },
     {
       "id": "p1773275971951",
-      "name": "新商品",
-      "category": "",
-      "points": 1,
-      "weight": 100,
+      "name": "生姜昆布",
+      "category": "A",
+      "points": 0.2,
+      "weight": 180,
       "type": "常温"
     },
     {
       "id": "p1773276921423",
-      "name": "新商品",
-      "category": "",
-      "points": 1,
+      "name": "根昆布だし",
+      "category": "A",
+      "points": 0.45,
       "weight": 100,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279994878",
+      "name": "醤油（1本）",
+      "category": "A",
+      "points": 0.45,
+      "weight": 131,
+      "type": "常温"
+    },
+    {
+      "id": "p1773280005385",
+      "name": "醤油（50本）",
+      "category": "A",
+      "points": 22.5,
+      "weight": 7000,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279547138",
+      "name": "海苔佃煮（ひじき、たらこ）",
+      "category": "B",
+      "points": 0.8,
+      "weight": 140,
       "type": "常温"
     },
     {
       "id": "p1773276921962",
-      "name": "新商品",
-      "category": "",
-      "points": 1,
+      "name": "生ふりかけ",
+      "category": "B",
+      "points": 0.7,
+      "weight": 160,
+      "type": "冷蔵"
+    },
+    {
+      "id": "p1773276922434",
+      "name": "試食用生ふりかけ",
+      "category": "B",
+      "points": 2.1,
+      "weight": 500,
+      "type": "冷蔵"
+    },
+    {
+      "id": "p1773279855206",
+      "name": "Pカップ",
+      "category": "Z",
+      "points": 12.5,
       "weight": 100,
       "type": "常温"
     },
     {
-      "id": "p1773276922434",
-      "name": "新商品",
-      "category": "",
+      "id": "p1773279884159",
+      "name": "無洗米",
+      "category": "Z",
+      "points": 9.5,
+      "weight": 5000,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279884347",
+      "name": "角スプーン",
+      "category": "Z",
+      "points": 12.5,
+      "weight": 1200,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279884540",
+      "name": "出汁（かね七）",
+      "category": "Z",
+      "points": 0.4,
+      "weight": 1000,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279884743",
+      "name": "レジ袋S",
+      "category": "Z",
+      "points": 0.6,
+      "weight": 0,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279885051",
+      "name": "レジ袋M",
+      "category": "Z",
+      "points": 1.2,
+      "weight": 0,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279929039",
+      "name": "レジ袋L・LL",
+      "category": "Z",
+      "points": 1.5,
+      "weight": 0,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279929203",
+      "name": "レジ袋LX・ゴミ袋",
+      "category": "Z",
+      "points": 2,
+      "weight": 0,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279929368",
+      "name": "opp",
+      "category": "Z",
+      "points": 0.8,
+      "weight": 1000,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279967996",
+      "name": "試食皿（角）",
+      "category": "Z",
       "points": 1,
-      "weight": 100,
+      "weight": 200,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279968191",
+      "name": "テープ",
+      "category": "Z",
+      "points": 0.8,
+      "weight": 0,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279968379",
+      "name": "ショッパー（紙）",
+      "category": "Z",
+      "points": 20,
+      "weight": 2000,
+      "type": "常温"
+    },
+    {
+      "id": "p1773279994651",
+      "name": "ショッパー（ビニ）",
+      "category": "Z",
+      "points": 3,
+      "weight": 0,
+      "type": "常温"
+    },
+    {
+      "id": "p1773280088551",
+      "name": "ハーフ納豆セット",
+      "category": "A",
+      "points": 3,
+      "weight": 75,
       "type": "常温"
     }
   ],
