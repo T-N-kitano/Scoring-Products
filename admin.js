@@ -109,14 +109,31 @@
     }
   }
 
-  function runAdmin() {
-    var products = loadProducts();
-    var rules = loadRules();
 
-    if (products.length === 0 && typeof DEFAULT_PRODUCTS !== 'undefined') {
-      products = JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
-      saveProducts(products);
-    }
+    function runAdmin() {
+      var products = loadProducts();
+      var rules = loadRules();
+  
+      $('importMasterBtn').onclick = function() {
+        if(!confirm('サーバー上の data.json を読み込みますか？現在の編集内容は上書きされます。')) return;
+        
+        var cb = '?t=' + new Date().getTime();
+        fetch('./data.json' + cb)
+          .then(res => {
+            if(!res.ok) throw new Error('data.jsonが見つかりません');
+            return res.json();
+          })
+          .then(data => {
+            if (data && data.products) {
+              saveProducts(data.products);
+              alert('読み込みが完了しました。');
+              location.reload(); 
+            }
+          })
+          .catch(err => {
+            alert('エラー: ' + err.message);
+          });
+      };
 
     $('exportMasterBtn').onclick = function() {
       var blob = new Blob([JSON.stringify({ products, rules }, null, 2)], { type: 'application/json' });

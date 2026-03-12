@@ -72,29 +72,26 @@
     var products = loadProducts();
     var col = loadColumns()[0] || { id: 'c1', counts: {} };
 
-    renderProductList($('productsContainer'), products, col);
-    updateSummary(products, col);
-
-    $('refreshMasterBtn').addEventListener('click', function () {
-      var cb = '?t=' + new Date().getTime();
-      
-      fetch('./data.json' + cb, { cache: 'no-cache' })
-        .then(res => {
-          if (!res.ok) throw new Error();
-          return res.json();
-        })
+    if (!products) {
+      fetch('./data.json?t=' + new Date().getTime())
+        .then(res => res.json())
         .then(data => {
           if (data && data.products) {
             saveProducts(data.products);
-            alert('最新データを読み込みました。');
             location.reload();
           }
         })
         .catch(err => {
-          console.error(err);
-          alert('更新に失敗しました。サーバに data.json があるか確認してください。');
+          console.error("マスタの自動読み込みに失敗:", err);
+         
+          products = DEFAULT_PRODUCTS; 
+          renderProductList($('productsContainer'), products, col);
         });
-    });
+      return; 
+    }
+
+    renderProductList($('productsContainer'), products, col);
+    updateSummary(products, col);
 
     $('resetCountsBtn').addEventListener('click', function () {
       if (confirm('リセットしますか？')) {

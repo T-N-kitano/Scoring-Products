@@ -17,7 +17,7 @@ const DEFAULT_RULES = [];
 
 function loadProducts() {
   var data = localStorage.getItem(STORAGE_KEYS.PRODUCTS);
-  return data ? JSON.parse(data) : DEFAULT_PRODUCTS;
+  return data ? JSON.parse(data) : null;
 }
 function saveProducts(products) {
   localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(products));
