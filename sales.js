@@ -64,8 +64,8 @@
     var s = calculateTotal(products, [col]);
     $('totalPointsRoom').textContent = s.totalPointsRoom.toFixed(1);
     $('totalPointsCold').textContent = s.totalPointsCold.toFixed(1);
-    $('totalWeight').textContent = s.totalWeightRoom + ' g';
-    $('totalWeightCold').textContent = s.totalWeightCold + ' g';
+    $('totalWeight').textContent = (s.totalWeightRoom / 1000).toFixed(2) + ' kg';
+    $('totalWeightCold').textContent = (s.totalWeightCold / 1000).toFixed(2) + ' kg';
   }
 
   window.addEventListener('DOMContentLoaded', function () {
