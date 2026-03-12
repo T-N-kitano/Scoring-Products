@@ -1,0 +1,10 @@
+{
+  "name": "販売員用 点数・重量計算",
+  "short_name": "点数計算",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": []
+}
+

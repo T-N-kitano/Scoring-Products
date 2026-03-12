@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "漁師の力めし",
+      "points": 0.8,
+      "weight": 70,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p2",
+      "name": "漁師の力だし",
+      "points": 0.6,
+      "weight": 112,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p3",
+      "name": "がごめ納豆昆布",
+      "points": 1.2,
+      "weight": 55,
+      "type": "冷蔵",
+      "category": "A"
+    },
+    {
+      "id": "p4",
+      "name": "がごめとろろ昆布",
+      "points": 1,
+      "weight": 65,
+      "type": "冷蔵",
+      "category": "A"
+    },
+    {
+      "id": "p5",
+      "name": "焼のり",
+      "points": 1.36,
+      "weight": 18,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p_7ocar3l",
+      "name": "海の七草汁",
+      "points": 1,
+      "weight": 100,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p_hv124j3",
+      "name": "シャキシャキわかめ",
+      "points": 1,
+      "weight": 100,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p_f2ato39",
+      "name": "花折乾昆布",
+      "points": 1,
+      "weight": 100,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p_jc45085",
+      "name": "日高乾昆布",
+      "points": 1,
+      "weight": 100,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p_uh271u6",
+      "name": "おさしみ昆布",
+      "points": 1,
+      "weight": 100,
+      "type": "常温",
+      "category": "A"
+    },
+    {
+      "id": "p1773275971483",
+      "name": "新商品",
+      "category": "",
+      "points": 1,
+      "weight": 100,
+      "type": "常温"
+    },
+    {
+      "id": "p1773275971951",
+      "name": "新商品",
+      "category": "",
+      "points": 1,
+      "weight": 100,
+      "type": "常温"
+    },
+    {
+      "id": "p1773276921423",
+      "name": "新商品",
+      "category": "",
+      "points": 1,
+      "weight": 100,
+      "type": "常温"
+    },
+    {
+      "id": "p1773276921962",
+      "name": "新商品",
+      "category": "",
+      "points": 1,
+      "weight": 100,
+      "type": "常温"
+    },
+    {
+      "id": "p1773276922434",
+      "name": "新商品",
+      "category": "",
+      "points": 1,
+      "weight": 100,
+      "type": "常温"
+    }
+  ],
+  "rules": []
+}
